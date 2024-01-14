@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap');
+nav{
+    top: 0px;
+}
+main{
+    padding-top: 50px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.blog-link{
+    color: var(--Primary, #FF6464);
+}
+
+.paragraph-sec p{
+    color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 136.364% */
+}
+.blog-card .blog-header{
+    color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.blog-card .blog-info{
+    color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.blog-card div{
+    display: flex;
+    gap: 10px;
+}
+.blog-card .inner-p-1{
+    margin: 0px;
+    text-decoration: none;
+    color: var(--Dark-Color, #21243D);
+font-family: Heebo;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.blog-card .inner-p-2{
+    margin: 0px;
+}
+.blog-card .vertical-line{
+    width: 1px;
+    background-color:  #21243D;
+}
+
+@media only screen and (max-width: 600px){
+    .paragraph-sec p{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    .blog-card .blog-header{
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+    .blog-card .inner-p-1, .inner-p-2 {
+        font-size: 16px;
+    }
+}

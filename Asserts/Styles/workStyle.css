@@ -1,0 +1,37 @@
+main{
+    margin: 0px;
+    padding: 0px;
+}
+.work-link{
+    color: var(--Primary, #FF6464);
+}
+.works-header{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: start;
+    padding-top: 50px;
+    margin-left: 11%;
+    justify-content: left;
+}
+header p{
+    color: var(--Dark-Color, #21243D);
+    font-family: Heebo;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px; /* 136.364% */
+}
+.work-cards-div{
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+@media only screen and (max-width: 600px){
+    header p{
+        font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 0px;
+    }
+}
